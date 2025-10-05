@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TechZephyr - Replicate & Innovate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div id="loader" class="loader hidden">
+      <div class="spinner"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">Tech<span>Zephyr</span></div>
+        <nav>
+          <a href="#features">Features</a>
+          <a href="#stats">Stats</a>
+          <a href="#showcase">Showcase</a>
+          <a href="#testimonials">Testimonials</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero with background video (homepage.mp4) -->
+    <section class="hero" id="home">
+      <video class="hero-video" autoplay muted loop playsinline poster="assets/hero-poster.jpg">
+        <source src="assets/homepage.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay">
+        <h1><span class="accent">Replicate</span> & Innovate</h1>
+        <p>Pixel-perfect execution with tasteful enhancements.</p>
+        <a class="btn primary" href="#features">Explore</a>
+      </div>
+    </section>
+
+    <!-- Features / Services (features-services.mp4 reference) -->
+    <section id="features" class="section">
+      <div class="container">
+        <h2 class="section-title">Features</h2>
+        <div class="grid features-grid">
+          <div class="card reveal">
+            <img src="assets/cards.png" alt="Cards" />
+            <h3>Modular Cards</h3>
+            <p>Composable UI blocks with delightful hover micro-interactions.</p>
+          </div>
+          <div class="card reveal">
+            <video class="thumb" autoplay muted loop playsinline>
+              <source src="assets/caraousel switch.mp4" type="video/mp4" />
+            </video>
+            <h3>Carousel</h3>
+            <p>Smooth content carousel with swipe and keyboard support.</p>
+          </div>
+          <div class="card reveal">
+            <video class="thumb" autoplay muted loop playsinline>
+              <source src="assets/ripple effect.mp4" type="video/mp4" />
+            </video>
+            <h3>Ripple Effects</h3>
+            <p>Material-like ripple feedback for engaging clicks.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section id="stats" class="section alt parallax">
+      <div class="container">
+        <h2 class="section-title">Stats</h2>
+        <div class="stats">
+          <div class="stat">
+            <img src="assets/graph.png" alt="Graph" />
+            <div class="num" data-target="98">0</div>
+            <div class="label">Design Accuracy</div>
+          </div>
+          <div class="stat">
+            <img src="assets/stats.png" alt="Stats" />
+            <div class="num" data-target="24">0</div>
+            <div class="label">FPS Animations</div>
+          </div>
+          <div class="stat">
+            <div class="num" data-target="100">0</div>
+            <div class="label">Accessibility</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Showcase Work -->
+    <section id="showcase" class="section">
+      <div class="container">
+        <h2 class="section-title">Showcase</h2>
+        <div class="masonry">
+          <img src="assets/showcase-1.jpg" alt="Showcase 1" class="reveal" />
+          <img src="assets/showcase-2.jpg" alt="Showcase 2" class="reveal" />
+          <img src="assets/showcase-3.jpg" alt="Showcase 3" class="reveal" />
+          <video class="reveal" autoplay muted loop playsinline>
+            <source src="assets/showcase work.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="carousel" aria-roledescription="carousel">
+          <button class="carousel-btn prev" aria-label="Previous">‹</button>
+          <div class="carousel-track">
+            <figure class="slide">
+              <video autoplay muted loop playsinline>
+                <source src="assets/testimonials.mp4" type="video/mp4" />
+              </video>
+            </figure>
+            <figure class="slide">
+              <video autoplay muted loop playsinline>
+                <source src="assets/customer-section.mp4" type="video/mp4" />
+              </video>
+            </figure>
+            <figure class="slide">
+              <video autoplay muted loop playsinline>
+                <source src="assets/customer-section.mp4" type="video/mp4" />
+              </video>
+            </figure>
+          </div>
+          <button class="carousel-btn next" aria-label="Next">›</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 TechZephyr. Built for the battle.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
